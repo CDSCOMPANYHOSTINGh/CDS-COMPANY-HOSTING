@@ -169,35 +169,3 @@ body {
         margin: 0 auto;
     }
 }
-
-
-/* --- BLOQUE AGREGADO AUTOMÁTICAMENTE: NO BORRA NADA --- */
-
-/* ======= FIX MÓVIL (AGREGADO AL FINAL, NO BORRA NADA) ======= */
-
-* { box-sizing: border-box; }
-
-/* Evita el comportamiento fijo del fondo en móviles */
-body { background-attachment: scroll !important; }
-
-/* Centrado general del contenido */
-main, .catalogo { width: 100%; max-width: 900px; margin: 0 auto; }
-
-/* Ajustes para pantallas <= 768px */
-@media (max-width: 768px) {
-  .header { padding: 15px; text-align: center; }
-  .links a { font-size: 13px; padding: 7px 12px; }
-  .tabs { flex-wrap: wrap; padding: 8px; gap: 5px; }
-  .tabs button { width: 48%; font-size: 14px; padding: 10px; }
-  .catalogo { grid-template-columns: 1fr !important; padding: 10px; gap: 18px; }
-  .item { width: 100% !important; max-width: 100%; padding: 15px; margin: 0 auto; }
-  .item img { width: 100%; height: auto; border-radius: 8px; }
-  footer img { width: 100%; max-width: 300px; display: block; margin: 10px auto; }
-  h1,h2,h3,p { text-align: center; word-wrap: break-word; }
-}
-
-/* Ajustes para pantallas <= 430px */
-@media (max-width: 430px) {
-  .tabs button { width: 100%; }
-  .item img { max-width: 100%; }
-}
