@@ -1,5 +1,5 @@
 
-const DISCORD_LINK = "https://discord.gg/BscPBFK97M";
+const DISCORD_LINK = "https://discord.gg/ny2JkxT4dP";
 const WHATSAPP_LINK = "https://wa.me/573000000000";
 const facebook_LINK = "https://wa.me/573000000000";
 
